@@ -76,12 +76,13 @@ node default {
 
   # zipfian
 
-  include java
+ include java
  include flux
  include vlc
  include processing
  include pgadmin3
  include mou
+ include mou::themes
  include sublime_text_2
  include spectacle
  include gimp
@@ -94,16 +95,26 @@ node default {
  include wget
  include xpdf
  include zeromq
+ include sysctl::ipforwarding
  include screen
  include imagemagick
  include vim
  include virtualbox
  include vagrant
+
+ vagrant::plugin { 'vagrant-vmware-fusion':
+  license => 'puppet:///modules/people/joe/licenses/fusion.lic',
+}
+
+vagrant::box { 'squeeze64/vmware_fusion':
+  source => 'https://s3.amazonaws.com/github-ops/vagrant/squeeze64-6.0.7-vmware_fusion.box'
+}
+
  include postgresql
  include firefox
  include emacs
  include transmission
- include iterm2
+ include iterm2::stable
  include mongodb
  include heroku
  include chrome
