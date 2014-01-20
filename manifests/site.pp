@@ -77,6 +77,7 @@ node default {
   # zipfian
  include swig
  include java
+ include pcre
  include flux
  include vlc
  include processing

@@ -89,4 +89,5 @@ github "heroku",      "2.1.1"
 github "chrome",      "1.1.2"
 github "sysctl",      "1.0.0"
 github "swig",        "1.0.0"
+github "pcre",        "1.0.0"
 
