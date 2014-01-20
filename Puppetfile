@@ -88,4 +88,5 @@ github "mongodb",     "1.2.0"
 github "heroku",      "2.1.1"
 github "chrome",      "1.1.2"
 github "sysctl",      "1.0.0"
+github "swig",        "1.0.0"
 

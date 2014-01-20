@@ -75,7 +75,7 @@ node default {
   include ruby::2_0_0
 
   # zipfian
-
+ include swig
  include java
  include flux
  include vlc
