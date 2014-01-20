@@ -74,6 +74,40 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # zipfian
+
+  include java
+ include flux
+ include vlc
+ include processing
+ include pgadmin3
+ include mou
+ include sublime_text_2
+ include spectacle
+ include gimp
+ include automake
+ include cmake
+ include inkscape
+ include handbrake
+ include libtool
+ include graphviz
+ include wget
+ include xpdf
+ include zeromq
+ include screen
+ include imagemagick
+ include vim
+ include virtualbox
+ include vagrant
+ include postgresql
+ include firefox
+ include emacs
+ include transmission
+ include iterm2
+ include mongodb
+ include heroku
+ include chrome
+
   # common, useful packages
   package {
     [
